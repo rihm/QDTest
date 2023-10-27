@@ -10,6 +10,9 @@ This Sample app contains follwing functinality
 1. Camera permission
 2. Write external permission
 
-# Used library
-1. For camera android jetpack camera x library used. 
+# Used libraries
+1. For camera android jetpack camera x library used.
+2. ProcessBuilder for Procesor details
+3. ActivityManager for memory info
+4. File class for storge 
    
