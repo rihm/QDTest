@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QDTest</string>
+    <string name="image_description">quantam</string>
+    <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="camera">Camera</string>
+    <string name="device_info">Device Info</string>
+    <string name="exit">Exit</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+    <string name="exit_confirm_msg">Are you sure you want to exit App?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="preview_area">camera_preview\n</string>
+</resources>

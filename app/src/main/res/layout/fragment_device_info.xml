@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_56"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:gravity="center"
+                android:text="@string/device_info"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:text="Device Model :"
+                    android:textStyle="bold"
+                    android:gravity="start|center_vertical"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/device_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:text="Device Model"
+                    android:gravity="start|center_vertical"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Os Version : "
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/os_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Os "
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Ram capticty :"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/ram_capacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Ram capticty"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Total Staorage :"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/total_storage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Total Staorage "
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Available Storage :"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/available_storage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="Available Stoage"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:gravity="center"
+                android:text="Processor Details"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_48"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="CPU :"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/cpu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:backgroundTint="@android:color/white"
+                    android:drawablePadding="@dimen/dp_32"
+                    android:gravity="start|center_vertical"
+                    android:text="CPU"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
