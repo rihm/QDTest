@@ -29,6 +29,8 @@ public class DashboardActivity extends AppCompatActivity {
         sharedPreferences=getSharedPreferences("AppData",MODE_PRIVATE);
         name=sharedPreferences.getString("name","user");
         email=sharedPreferences.getString("email","user");
+        binding.name.setText(name);
+        binding.email.setText(email);
     }
 
     public void openExitAppDialogue() {
