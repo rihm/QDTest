@@ -6,4 +6,7 @@ This Sample app contains follwing functinality
 4. Device information
 5. Exit to confiem dialog
    
-
+# Used Permisstions 
+1. Camera permission
+2. Write external permission
+   
