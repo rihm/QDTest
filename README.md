@@ -9,4 +9,7 @@ This Sample app contains follwing functinality
 # Used Permisstions 
 1. Camera permission
 2. Write external permission
+
+# Used library
+1. For camera android jetpack camera x library used. 
    
