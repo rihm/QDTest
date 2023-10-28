@@ -20,7 +20,12 @@ This Sample app contains follwing functinality
 # Other things
 1. Bottom Sheet Dialog Fragmentt used for login and device info .
 2. shared prefrence used for , maintain login status of app.
-   
+
+# Login to app
+1.You can use any username and password
+2. valid email id
+3. password minimum 6 later 
+  
    
    
    
