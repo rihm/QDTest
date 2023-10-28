@@ -23,7 +23,7 @@ This Sample app contains follwing functinality
 
 # Login to app
 1. You can use any username and password
-2. Any valid email id
+2. Username- Any valid email id
 3. Password minimum 6 later 
   
    
